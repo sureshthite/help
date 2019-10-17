@@ -1,1 +1,5 @@
 https://stackoverflow.com/questions/24976123/streaming-a-video-file-to-an-html5-video-player-with-node-js-so-that-the-video-c
+
+
+For running express and react on one port:
+https://github.com/burkeholland/express-react-starter
