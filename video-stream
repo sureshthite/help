@@ -3,3 +3,17 @@ https://stackoverflow.com/questions/24976123/streaming-a-video-file-to-an-html5-
 
 For running express and react on one port:
 https://github.com/burkeholland/express-react-starter
+
+
+
+https://medium.com/canal-tech/how-video-streaming-works-on-the-web-an-introduction-7919739f7e1
+
+
+
+ var http = require('http'),
+    // options = {method: 'HEAD', host: 'stackoverflow.com', port: 80, path: '/'},
+    options = {method: 'HEAD', host: 'medissssa.w3.org', port: 80, path: '/2010/05/sintel/trailer.mp4'},
+    req = http.request(options, function(r) {
+        console.log(JSON.stringify(r.headers));
+    });
+    req.end();
